@@ -1,0 +1,40 @@
+header, footer 
+{
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(68, 33, 223);
+    color: white;
+    font-family: "Times New Roman";
+}
+
+#Main #Carnes
+{
+    font-family: "Times New Roman";
+    height: 715px;
+    font-weight: bold;
+}
+#Main #Frutas
+{
+    font-family: "Times New Roman";
+    height: 715px;
+    font-weight: bold;
+
+}
+#Main #Otros
+{
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+ol
+{
+    font-family: "Times New Roman";
+    font-weight: normal;
+}
+
+
+
+main 
+{
+    column-count:3;
+}
