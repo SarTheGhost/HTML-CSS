@@ -5,3 +5,27 @@
     padding-left: 0;
     background-color: aqua;
 }
+.main-nav__item
+{
+    display: inline-block;
+}
+.main-nav__item a
+{
+    color:brown;
+    padding:5px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: blue;
+}
+.main-nav__item a:hover
+{
+    color: aliceblue;
+}
+.main-nav__item a:active
+{
+    color: pink;
+}
+.main-nav__item a::after
+{
+    content: " | ";
+}
