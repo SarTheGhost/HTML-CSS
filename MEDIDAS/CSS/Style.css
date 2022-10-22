@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+main
+{
+    background-color: brown;
+    width: 100vw;
+    height:100vh;
+
+}
+section 
+{
+    width:80%;
+    min-width: 300px;
+    max-width: 600px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: chocolate;
+}
+p
+{
+    font-size: 1.7rem;
+} 
+/*
+PIXELES
+p
+{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 5px 5px 20px;
+    
+} */
+
+/* 
+EM
+.text-container 
+{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 5px 5px 20px;
+}
+.text-container div
+{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1em;
+} */
+/* 
+REM
+p
+{
+    font-size: 1.7rem;
+} */
+

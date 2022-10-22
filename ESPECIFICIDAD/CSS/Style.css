@@ -1,0 +1,44 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    font-family: serif;
+    color :green;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.title
+{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav
+{
+    margin-top: 10px;
+    list-style-type:none;
+    padding-left: 0px;
+    background-color: green;
+}
+
+.nav li 
+{
+    display: inline-block;
+}
+
+.nav a 
+{
+    color: whitesmoke;
+    background-color: brown;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration:none;
+}
+.nav .Blogs
+{
+    background-color: blue ;
+}
