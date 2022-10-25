@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+.parent 
+{
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+#two
+{
+    background-color: chocolate;
+    width: 250px;
+    height: 450px;
+    font-size: 1.6rem;
+}
+
+.box
+{
+    display: inline-block;
+    background-color:bisque;
+    width: 100px;
+    height: 100px;
+    font-size: 1.6rem;
+    position:fixed;
+}
