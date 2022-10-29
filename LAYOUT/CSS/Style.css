@@ -1,0 +1,113 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%
+}
+.caja_contenedora
+{
+    position: relative;
+    width: 100vw;
+    height:100vh;
+    overflow:hidden;
+    background-color: transparent;
+
+}
+.header
+{
+    position:absolute;
+    width: 100%;
+    height: 8%;
+    background-color:rgb(117, 83, 10);
+    border: 0.5rem solid rgb(49, 36, 7);
+    border-bottom: 5px transparent;
+    display: inline-block;
+
+}
+.listas
+{
+    display:inline-block;
+    position: absolute;
+    color: #fff;
+}
+.listas.titulo
+{
+    font-size: 5.5rem;
+    left: 6rem ;
+    margin-top: 0.5rem;
+}
+
+.listas.productos li
+{
+    list-style: none;
+    text-align: center;
+    font-size: 3rem;
+    position: absolute;
+    text-align: center;
+    top:1.5px;
+    margin: 10px;
+
+}
+.Inicio
+{
+
+    left: 108rem;
+
+    top:1.5rem;
+    
+}
+.Seccion
+{
+ 
+    left: 116rem ;
+    
+}
+.Sar
+{
+ 
+    left:126rem;
+    width: 50px;
+
+}
+
+
+.nav
+{
+    position:absolute;
+    background-color: rgb(216, 158, 83);
+    border: 0.5rem solid rgb(49, 36, 7);
+    top:8%;
+    width: 15%;
+    min-width: 20rem;
+    height: 87%;
+    display: inline-block;
+    z-index: 50;
+}
+.body
+{
+    
+    position:absolute;
+    background-color: rgb(202, 160, 106);
+    border: 0.5rem solid rgb(49, 36, 7);
+    border-left: 0.5rem transparent;
+    top:8vh;
+    left: 15%;
+    width: 85%;
+    height: 87%;
+    display: inline-block;
+}
+.footer
+{
+    position:absolute;
+    background-color: rgb(117, 83, 10);
+    bottom:0%;
+    width: 100vw;
+    height: 5vh;
+    display: inline-block;
+    border: 0.5rem solid rgb(49, 36, 7);
+    border-top: 5px transparent;
+}
